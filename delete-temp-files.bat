@@ -7,7 +7,7 @@
 :: Print the subscribe message at the top
 echo ****************************************************
 echo ** Subscribe to Pixel Vista for more tech tutorials! **
-echo ** https://www.youtube.com/c/PixelVista **
+echo ** https://www.youtube.com/@PixelVistaOfficial **
 echo ****************************************************
 
 echo Deleting temporary files...
