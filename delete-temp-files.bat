@@ -23,10 +23,6 @@ rd /s /q C:\Windows\Temp
 :: Delete Windows prefetch files
 del /s /q /f C:\Windows\Prefetch\*
 
-:: Delete Internet Explorer temp files (if any)
-rd /s /q "%localappdata%\Microsoft\Windows\INetCache"
-rd /s /q "%localappdata%\Microsoft\Windows\Temporary Internet Files"
-
 :: Delete additional system temp files
 rd /s /q "%systemroot%\Temp"
 del /s /q /f "%systemroot%\Prefetch\*"
